@@ -35,7 +35,7 @@ O site deve estar pronto para rodar em qualquer plataforma e **em uma máquina c
 - Seu código deve estar pronto para rodar
 - Sinta-se a vontade para usar qualquer framework se achar necessário
 - Você **deve** incluir testes de unidade
-- Não incluir artefatos de seu build local (se utilizar build)
+- Tente não incluir artefatos de seu build local (se utilizar build), como por exemplo, a pasta node_modules.
 
 ### User Story
 
