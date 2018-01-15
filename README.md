@@ -5,7 +5,7 @@ Muito obrigado por reservar um tempo para fazer nosso teste técnico. Ele consis
  - Um teste técnico (código)
  - Algumas perguntas técnicas
  
-Complete ambos e crie um arquivo zip com todo o conteúdo. Pegue este arquivo e dê upload para um local compartilhado como Google Drive, One Drive e nos forneça um link privado de acesso. Caso não seja possível, compartilhe o local com a pessoa responsável da Way2 que lhe atribuiu o teste. Por favor, não divulgue seu teste em outros canais.
+Complete ambos e crie um arquivo zip com todo o conteúdo. Pegue este arquivo e dê upload para um local compartilhado como Google Drive, One Drive e nos forneça um link privado de acesso. Caso não seja possível, compartilhe o local com a pessoa responsável da Way2 que lhe atribuiu o teste. Por favor, não divulgue seu teste em outros canais. Não dê fork neste repositório para apresentar sua solução.
 
 O arquivo zip deve ser **único**, nomeado como **{seu nome}-{nome da vaga}.zip** e deve conter:
 
