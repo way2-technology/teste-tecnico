@@ -16,7 +16,7 @@ O arquivo zip deve ser **único**, nomeado como **{seu nome}-{nome da vaga}.zip*
 
 Para o teste técnico, vamos utilizar a API pública chamada <a href="https://www.football-data.org" target="_blank">football-data.org</a>.
 
-Crie uma aplicação que aceita um código de competição (Ex: 444 = Campeonato Brasileiro série A) e apresenta uma lista com o ranking da mesma. A lista deve conter:
+Crie uma [single page application](https://en.wikipedia.org/wiki/Single-page_application) que aceite um código de competição (Ex: 444 = Campeonato Brasileiro série A) e apresente uma lista com o ranking da mesma. A lista deve conter:
 
 - posição no ranking (atual ou final, caso o campeonato já tenha acabado)
 - nome do time
