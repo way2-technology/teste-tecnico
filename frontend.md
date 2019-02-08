@@ -14,9 +14,9 @@ O arquivo zip deve ser **único**, nomeado como **{seu nome}-{nome da vaga}.zip*
 
 ## Teste Técnico
 
-Para o teste técnico, vamos utilizar a API pública chamada <a href="https://www.football-data.org" target="_blank">football-data.org</a>.
+Para o teste técnico, vamos utilizar a V2 da API pública chamada <a href="https://www.football-data.org" target="_blank">football-data.org</a>.
 
-Crie uma [single page application](https://en.wikipedia.org/wiki/Single-page_application) que aceite um código de competição (Ex: 444 = Campeonato Brasileiro série A) e apresente uma lista com o ranking da mesma. A lista deve conter:
+Crie uma [single page application](https://en.wikipedia.org/wiki/Single-page_application) que aceite um código de competição (Ex: 2013 = Campeonato Brasileiro série A) e apresente uma lista com o ranking da mesma. A lista deve conter:
 
 - posição no ranking (atual ou final, caso o campeonato já tenha acabado)
 - nome do time
@@ -40,11 +40,11 @@ O site deve estar pronto para rodar em qualquer plataforma e **em uma máquina c
 ### User Story
 
  Como um **usuário utilizando a aplicação** <br />
- Eu posso ver **o ranking de um campeonato enviando seu código (Ex: 444)**<br />
+ Eu posso ver **o ranking de um campeonato enviando seu código (Ex: 2013)**<br />
  Então eu sei quais **times estão ou finalizaram na frente**<br />
 
 #### Aceite
-- Para o código 444, o ranking do campeonato Brasileiro é mostrado
+- Para o código 2013, o ranking do campeonato Brasileiro é mostrado
 - Os campos de posição, nome do time, vitórias, empates, derrotas e pontos são informados para cada time.
 
 ## Perguntas Técnicas
