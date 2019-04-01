@@ -52,13 +52,13 @@ Ex: `npm install`, `npm run build`.
 - Tome cuidado com segurança, resiliência e velocidade
 - Tente não incluir artefatos de seu build local (se utilizar build), como por exemplo, as bin, debug, node_modules ou similar.
 
-### Criterio de avaliacao
+### Critérios de avaliação 
+A qualidade da solução é fundamental, assim sera levado em consideração na hora de avaliar as provas:
 - Legibilidade do codigo entregue: a way2 privilegia uma cultura de Clean code
-- Qualidade dos testes, praticamos TDD
-- Arquitectura da solucao sera aviliada 
+- Qualidade dos testes, praticamos TDD, portanto consideramos esse item fundamental para a aprovação do candidato
+- Arquitetura da solução: isolamento das camadas, injeção de dependencias, etc..
 
 ### User Story
-
  Como um **usuário utilizando a aplicação** <br />
  Eu posso ver **o ranking de um campeonato enviando seu código (Ex: 2013)**<br />
  Então eu sei quais **times estão ou finalizaram na frente**<br />
