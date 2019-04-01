@@ -52,6 +52,11 @@ Ex: `npm install`, `npm run build`.
 - Tome cuidado com segurança, resiliência e velocidade
 - Tente não incluir artefatos de seu build local (se utilizar build), como por exemplo, as bin, debug, node_modules ou similar.
 
+### Criterio de avaliacao
+- Legibilidade do codigo entregue: a way2 privilegia uma cultura de Clean code
+- Qualidade dos testes, praticamos TDD
+- Arquitectura da solucao sera aviliada 
+
 ### User Story
 
  Como um **usuário utilizando a aplicação** <br />
