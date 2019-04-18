@@ -18,7 +18,7 @@ Para o teste técnico, vamos criar um web app que busca seus dados de um sistema
 
 A parte do servidor deve utilizar a V2 da API pública chamada <a href="https://www.football-data.org" target="_blank">football-data.org</a> como fonte de seus dados. **Não acesse a API diretamente do navegador.**
 
-Crie uma aplicação que aceita um código de competição (Ex: 2013 = Campeonato Brasileiro série A) e apresenta uma lista com o ranking da mesma. A lista deve conter:
+Crie uma aplicação que aceita um código de competição (Ex: 2021 = Campeonato Inglês - Premier League) e apresenta uma lista com o ranking da mesma. A lista deve conter:
 
 - posição no ranking (atual ou final, caso o campeonato já tenha acabado)
 - nome do time
@@ -64,7 +64,7 @@ A qualidade da solução é fundamental, assim sera levado em consideração na 
  Então eu sei quais **times estão ou finalizaram na frente**<br />
 
 #### Aceite
-- Para o código 2013, o ranking do campeonato Brasileiro é mostrado
+- Para o código 2021, o ranking do campeonato Inglês é mostrado
 - Os campos de posição, nome do time, vitórias, empates, derrotas e pontos são informados para cada time.
 
 ## Perguntas Técnicas
