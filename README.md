@@ -1,6 +1,8 @@
 Testes técnicos da Way2
 
-- [Full Stack](https://github.com/way2-technology/teste-tecnico/blob/master/fullstack.md)
+- [Full Stack - API](https://github.com/way2-technology/teste-tecnico/blob/master/fullstack.md)
+
+- [Full Stack - Lógica](https://github.com/way2-technology/teste-tecnico/blob/master/fullstack-pandas.md)
 
 - [FrontEnd](https://github.com/way2-technology/teste-tecnico/blob/master/frontend.md)
 
