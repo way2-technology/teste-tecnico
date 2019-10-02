@@ -8,10 +8,10 @@ Para deixar as coisas mais divertidas, a única mandeira de se interagir com est
  
 Sendo assim, uma chamada para: 
  
-- http://teste.way2.com.br/dic/api/words/0 retorna “Abel”
-- http://teste.way2.com.br/dic/api/words/1 retorna “Abelardo” 
-- http://teste.way2.com.br/dic/api/words/3929 retorna “cabelo” 
-- http://teste.way2.com.br/dic/api/words/40000000000000 retorna 400 Bad Request 
+- https://way2dictionary.azurewebsites.net/api/values/0 retorna “Abel”
+- https://way2dictionary.azurewebsites.net/api/values/1 retorna “Abelardo” 
+- https://way2dictionary.azurewebsites.net/api/values/3929 retorna “cabelo” 
+- https://way2dictionary.azurewebsites.net/api/values/40000000000000 retorna 400 Bad Request 
  
 É importante saber também que cada vez que você chama este webservice, **morre um panda** ʕ •ᴥ•ʔ
  
