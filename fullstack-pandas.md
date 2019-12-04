@@ -13,7 +13,7 @@ Sendo assim, uma chamada para:
 - https://way2dictionary.azurewebsites.net/api/values/3929 retorna “cabelo” 
 - https://way2dictionary.azurewebsites.net/api/values/40000000000000 retorna 400 Bad Request 
  
-É importante saber também que cada vez que você chama este webservice, **morre um panda** ʕ •ᴥ•ʔ
+O dicionário está ordenado alfabeticamente, porém é importante saber também que cada vez que você chama este webservice, **morre um panda** ʕ •ᴥ•ʔ
  
 Seu algoritmo não deve considerar o tamanho do dicionário mesmo se você o descubra por tentativa e erro. Isto se deve ao fato que você não sabe quando este dicionário vai mudar (aumentar ou diminuir) e seu algoritmo não pode quebrar por isso. 
  
