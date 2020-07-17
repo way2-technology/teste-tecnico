@@ -60,7 +60,7 @@ Por favor, responda estas perguntas em um arquivo markdown chamado `PerguntasTec
 
 1. Quanto tempo você usou para completar a solução apresentada? O que você faria se tivesse mais tempo?
 2. Se usou algum framework, qual foi o motivo de ter usado este? Caso contrário, por que não utilizou nenhum?
-3. Quais as métricas que você observaria nessa aplicação caso estive em produção cenario de "missão crítica"? 
+3. Quais as métricas que você observaria nessa aplicação caso estivesse em produção com o cenário de "missão crítica"? 
 4. Descreva você mesmo utilizando json.
 
 Muito obrigado!
