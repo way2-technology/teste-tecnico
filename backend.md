@@ -34,12 +34,12 @@ Ganha pontos quando:
 - Por favor, complete a user story abaixo
 - Seu código deve estar pronto para rodar
 - O código deve usar C# em um projeto ASP NET Core 
-- Você **deve** incluir testes de unidade (Piramede de Testes)
+- Você **deve** incluir testes de unidade (Pirâmide de Testes)
 - Tome cuidado com segurança, resiliência e velocidade
 - Tente não incluir artefatos de seu build local (se utilizar build), como por exemplo, as bin, debug ou similar.
 
 ### Critérios de avaliação 
-A qualidade da solução é fundamental, assim sera levado em consideração na hora de avaliar as provas:
+A qualidade da solução é fundamental, assim será levado em consideração na hora de avaliar as provas:
 - Legibilidade do codigo entregue: a way2 privilegia uma cultura de Clean code
 - Qualidade dos testes, praticamos TDD, portanto consideramos esse item fundamental para a aprovação do candidato
 - Performance da aplicação.
