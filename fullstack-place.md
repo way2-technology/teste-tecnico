@@ -1,4 +1,4 @@
-# **Teste Técnico para Full-Stack Developer Place **
+# Teste Técnico para Full-Stack Developer Place
 
 Muito obrigado por reservar um tempo para fazer nosso teste técnico. Ele consiste em 2 partes:
 
