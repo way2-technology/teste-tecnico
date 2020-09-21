@@ -1,6 +1,6 @@
 # Teste Técnico para Full-Stack Developer Place
 
-Muito obrigado por reservar um tempo para fazer nosso teste técnico. Ele consiste em 2 partes:
+Muito obrigado por reservar um tempo para fazer nosso teste técnico. Ele consiste em duas partes:
 
 - Um teste técnico, dividido em Back-End e Front-End (código)
 - Algumas perguntas técnicas
@@ -17,7 +17,7 @@ O arquivo zip deve ser  **único** , nomeado como  **{seu nome}-{nome da vaga}.z
 Para o teste técnico, deve-se criar uma API (Web App) com as seguintes premissas:
 
 - Um agendamento interno deve acessar a API do OpenWeather ([https://openweathermap.org/api](https://openweathermap.org/api)) a cada 15 minutos;
-- As informações a serem recuperadas da API do OpenWeather são os valores das temperaturas das seguintes capitais: Porto Alegre, Florianópolis e Curitiba;
+- As informações a serem recuperadas da API do OpenWeather são os valores das temperaturas das capitais passadas por parâmetros (Ex: Porto Alegre, Florianópolis e Curitiba);
 - Uma vez que os dados forem lidos, estes devem ser armazenados (em memória ou no disco);
 - Dentro do Web App, uma API em REST deve ser disponibilizada para a consulta dos dados de temperatura armazenados;
 - A API deve permitir a consulta passando os seguintes parâmetros obrigatórios: Nome da cidade, Data de Início e Data de Fim;
@@ -60,7 +60,7 @@ O site deve estar pronto para rodar em qualquer plataforma e **em uma máquina c
 
 A qualidade da solução é fundamental, assim será levado em consideração na hora de avaliar as provas:
 
-- Legibilidade do código entregue: a way2 privilegia uma cultura de Clean code
+- Legibilidade do código entregue: a way2 privilegia uma cultura de **Clean Code**
 - Adoção de boas práticas do padrão Restful
 - Qualidade dos testes, praticamos TDD, portanto consideramos esse item fundamental para a aprovação do candidato
 - Arquitetura da solução: isolamento das camadas, injeção de dependências, etc..
@@ -83,13 +83,13 @@ Como um usuário utilizando a aplicação
 
 **Back-End**
 
-- Para as cidades de Curitiba, Florianópolis e Porto Alegre, as informações de temperatura, junto com a data/hora da coleta são mostradas
+- Para as cidades passadas por parâmetros, as informações de temperatura, junto com a data/hora da coleta são mostradas
 - O tempo entre cada coleta é de 15 minutos (aproximadamente)
 
 **Front-End**
 
-- Para as cidades de Curitiba, Florianópolis e Porto Alegre, as informações de temperatura, junto com a data/hora da coleta são mostradas na tela em forma de tabela
-- Os campos de posição, nome da cidade e temperatura são informados para cada time.
+- Para as cidades passadas por parâmetros, as informações de temperatura, junto com a data/hora da coleta são mostradas na tela em forma de tabela
+- Os campos de nome da cidade e temperatura são informados para cada cidade.
 
 **Anotações finais**
 
@@ -100,9 +100,8 @@ Sinta-se a bondade de inovar, a gente aprecia muito inovação, pode sair da cai
 Por favor, responda estas perguntas em um arquivo markdown chamado PerguntasTecnicas.md e coloque dentro do .zip entregue.
 
 1. Quanto tempo você usou para completar a solução apresentada? O que você faria se tivesse mais tempo?
-2. Se usou algum framework .net, qual foi o motivo de ter usado este? Caso contrário, por que não utilizou nenhum?
-3. Se usou algum framework javascript, qual foi o motivo de ter usado este? Caso contrário, por que não utilizou nenhum?
-4. Liste alguns frameworks javascript e nos diga em quais situações seria melhor utilizar cada um deles.
-5. Descreva você mesmo utilizando json.
+2. Quais librarias utilizou para complementar sua implementação e qual foi o motivo de ter usado estas? Caso contrário, por que não utilizou nenhum?
+3. Liste alguns frameworks javascript e nos diga em quais situações seria melhor utilizar cada um deles.
+4. Descreva você mesmo utilizando json.
 
 Muito obrigado!
