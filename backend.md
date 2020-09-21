@@ -14,7 +14,7 @@ O arquivo zip deve ser **único**, nomeado como **{seu nome}-{nome da vaga}.zip*
 
 ## Teste Técnico
 
-Para o teste técnico, deve-se criar uma API (Web App) com as seguintes premissas: 
+Para o teste técnico, deve-se criar uma api .net core (visando a arquitetura de microserviços) com as seguintes premissas: 
 * Um agendamento interno deve acessar a API do OpenWeather (https://openweathermap.org/api) a cada 15 minutos;
 * As informações a serem recuperadas da API do OpenWeather são os valores das temperaturas das seguintes capitais: Porto Alegre, Florianópolis e Curitiba;
 * Uma vez que os dados forem lidos, estes devem ser armazenados (em memória ou no disco);
@@ -25,22 +25,25 @@ Para o teste técnico, deve-se criar uma API (Web App) com as seguintes premissa
 
 A API deve estar pronta para rodar em qualquer plataforma e **em uma máquina com somente dotnet instalado**, com o comando `dotnet run` e nada mais. 
 
-Pontos extras se entregar o projeto dentro de algum container!!
+Ganha pontos quando: 
+- Usa alguma tecnologia de containerização (docker, docker-compose, k8s)
+- Entrega o teste publicado em alguma cloud utilizando pipelines de CI/CD (Podemos combinar um periodo em que a aplicação estará online, favor comunicar).
 
 ### Requisitos
 
 - Por favor, complete a user story abaixo
 - Seu código deve estar pronto para rodar
-- O código deve usar C# em um projeto ASP NET ou ASP NET Core 
-- Você **deve** incluir testes de unidade
+- O código deve usar C# em um projeto ASP NET Core 
+- Você **deve** incluir testes de unidade (Pirâmide de Testes)
 - Tome cuidado com segurança, resiliência e velocidade
 - Tente não incluir artefatos de seu build local (se utilizar build), como por exemplo, as bin, debug ou similar.
 
 ### Critérios de avaliação 
-A qualidade da solução é fundamental, assim sera levado em consideração na hora de avaliar as provas:
+A qualidade da solução é fundamental, assim será levado em consideração na hora de avaliar as provas:
 - Legibilidade do codigo entregue: a way2 privilegia uma cultura de Clean code
 - Qualidade dos testes, praticamos TDD, portanto consideramos esse item fundamental para a aprovação do candidato
-- Arquitetura da solução: isolamento das camadas, injeção de dependencias, etc..
+- Performance da aplicação.
+- Arquitetura da solução: isolamento das camadas, injeção de dependencias, POO, SOLID etc..
 
 ### User Story
  Como um usuário consumidor da API <br />
@@ -57,6 +60,7 @@ Por favor, responda estas perguntas em um arquivo markdown chamado `PerguntasTec
 
 1. Quanto tempo você usou para completar a solução apresentada? O que você faria se tivesse mais tempo?
 2. Se usou algum framework, qual foi o motivo de ter usado este? Caso contrário, por que não utilizou nenhum?
-3. Descreva você mesmo utilizando json.
+3. Quais as métricas que você observaria nessa aplicação caso estivesse em produção com o cenário de "missão crítica"? 
+4. Descreva você mesmo utilizando json.
 
 Muito obrigado!
